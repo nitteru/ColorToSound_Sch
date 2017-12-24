@@ -1,0 +1,278 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SamacSys_Parts
+LIBS:ColorToSound-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PIC18F25K22-I_SS IC?
+U 1 1 5A3F4882
+P 4300 2850
+F 0 "IC?" H 5100 3000 50  0000 C CNN
+F 1 "PIC18F25K22-I_SS" H 5100 1400 50  0000 C CNN
+F 2 "SOP65P780X200-28N" H 5100 1300 50  0001 C CNN
+F 3 "http://docs-europe.electrocomponents.com/webdocs/0e24/0900766b80e24f42.pdf" H 5100 1200 50  0001 C CNN
+F 4 "MCU, 32KB, Flash, 1536, , XLP, 28SSOP" H 5100 1100 50  0001 C CNN "Description"
+F 5 "RS" H 5100 1000 50  0001 C CNN "Supplier_Name"
+F 6 "7037784P" H 5100 900 50  0001 C CNN "RS Part Number"
+F 7 "Microchip" H 5100 800 50  0001 C CNN "Manufacturer_Name"
+F 8 "PIC18F25K22-I/SS" H 5100 700 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "70048047" H 5100 600 50  0001 C CNN "Allied_Number"
+F 10 "" H 5100 500 50  0001 C CNN "Other Part Number"
+F 11 "2" H 5750 400 50  0001 C CNN "Height"
+	1    4300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L S11059-02DT IC?
+U 1 1 5A3F4ADB
+P 4450 5350
+F 0 "IC?" H 5150 5500 50  0000 C CNN
+F 1 "S11059-02DT" H 5150 4800 50  0000 C CNN
+F 2 "SOP80P500X130-10N" H 5150 4700 50  0001 C CNN
+F 3 "http://www.hamamatsu.com/resources/pdf/ssd/s11059-02dt_etc_kpic1082j.pdf" H 5150 4600 50  0001 C CNN
+F 4 "S11059-02DT is a digital color sensor that supports the I2C" H 5150 4500 50  0001 C CNN "Description"
+F 5 "RS" H 5150 4400 50  0001 C CNN "Supplier_Name"
+F 6 "" H 5150 4300 50  0001 C CNN "RS Part Number"
+F 7 "Hamamatsu" H 5150 4200 50  0001 C CNN "Manufacturer_Name"
+F 8 "S11059-02DT" H 5150 4100 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "" H 5150 4000 50  0001 C CNN "Allied_Number"
+F 10 "" H 5150 3900 50  0001 C CNN "Other Part Number"
+F 11 "1.3" H 5700 3800 50  0001 C CNN "Height"
+	1    4450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A3F4B55
+P 6200 3550
+F 0 "C?" H 6225 3650 50  0000 L CNN
+F 1 "C" H 6225 3450 50  0000 L CNN
+F 2 "" H 6238 3400 50  0001 C CNN
+F 3 "" H 6200 3550 50  0001 C CNN
+	1    6200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A3F4BE4
+P 6100 5450
+F 0 "C?" H 6125 5550 50  0000 L CNN
+F 1 "C" H 6125 5350 50  0000 L CNN
+F 2 "" H 6138 5300 50  0001 C CNN
+F 3 "" H 6100 5450 50  0001 C CNN
+	1    6100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5A3F4CB0
+P 7500 1850
+F 0 "D?" H 7500 1950 50  0000 C CNN
+F 1 "LED_R" H 7500 1750 50  0000 C CNN
+F 2 "" H 7500 1850 50  0001 C CNN
+F 3 "" H 7500 1850 50  0001 C CNN
+	1    7500 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5A3F4CDF
+P 8700 1850
+F 0 "D?" H 8700 1950 50  0000 C CNN
+F 1 "LED_G" H 8700 1750 50  0000 C CNN
+F 2 "" H 8700 1850 50  0001 C CNN
+F 3 "" H 8700 1850 50  0001 C CNN
+	1    8700 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5A3F4D23
+P 9900 1850
+F 0 "D?" H 9900 1950 50  0000 C CNN
+F 1 "LED_B" H 9900 1750 50  0000 C CNN
+F 2 "" H 9900 1850 50  0001 C CNN
+F 3 "" H 9900 1850 50  0001 C CNN
+	1    9900 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speaker LS?
+U 1 1 5A3F4DD8
+P 7750 5300
+F 0 "LS?" H 7800 5525 50  0000 R CNN
+F 1 "Speaker" H 7800 5450 50  0000 R CNN
+F 2 "" H 7750 5100 50  0001 C CNN
+F 3 "" H 7740 5250 50  0001 C CNN
+	1    7750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDS Q?
+U 1 1 5A3F51F0
+P 7400 2600
+F 0 "Q?" H 7600 2650 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 7600 2550 50  0000 L CNN
+F 2 "" H 7600 2700 50  0001 C CNN
+F 3 "" H 7400 2600 50  0001 C CNN
+	1    7400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDS Q?
+U 1 1 5A3F5237
+P 8600 2600
+F 0 "Q?" H 8800 2650 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 8800 2550 50  0000 L CNN
+F 2 "" H 8800 2700 50  0001 C CNN
+F 3 "" H 8600 2600 50  0001 C CNN
+	1    8600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDS Q?
+U 1 1 5A3F526A
+P 9800 2600
+F 0 "Q?" H 10000 2650 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 10000 2550 50  0000 L CNN
+F 2 "" H 10000 2700 50  0001 C CNN
+F 3 "" H 9800 2600 50  0001 C CNN
+	1    9800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3F5324
+P 7500 1350
+F 0 "R?" V 7580 1350 50  0000 C CNN
+F 1 "R" V 7500 1350 50  0000 C CNN
+F 2 "" V 7430 1350 50  0001 C CNN
+F 3 "" H 7500 1350 50  0001 C CNN
+	1    7500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3F536D
+P 8700 1350
+F 0 "R?" V 8780 1350 50  0000 C CNN
+F 1 "R" V 8700 1350 50  0000 C CNN
+F 2 "" V 8630 1350 50  0001 C CNN
+F 3 "" H 8700 1350 50  0001 C CNN
+	1    8700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3F53D8
+P 9900 1350
+F 0 "R?" V 9980 1350 50  0000 C CNN
+F 1 "R" V 9900 1350 50  0000 C CNN
+F 2 "" V 9830 1350 50  0001 C CNN
+F 3 "" H 9900 1350 50  0001 C CNN
+	1    9900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A3F5A3F
+P 3350 2100
+F 0 "#PWR?" H 3350 1850 50  0001 C CNN
+F 1 "GND" H 3350 1950 50  0000 C CNN
+F 2 "" H 3350 2100 50  0001 C CNN
+F 3 "" H 3350 2100 50  0001 C CNN
+	1    3350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5A3F5A97
+P 3350 1900
+F 0 "#PWR?" H 3350 1750 50  0001 C CNN
+F 1 "+5V" H 3350 2040 50  0000 C CNN
+F 2 "" H 3350 1900 50  0001 C CNN
+F 3 "" H 3350 1900 50  0001 C CNN
+	1    3350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5A3F642B
+P 8700 1000
+F 0 "#PWR?" H 8700 850 50  0001 C CNN
+F 1 "+5V" H 8700 1140 50  0000 C CNN
+F 2 "" H 8700 1000 50  0001 C CNN
+F 3 "" H 8700 1000 50  0001 C CNN
+	1    8700 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1000 8700 1100
+Wire Wire Line
+	8700 1100 8700 1200
+Wire Wire Line
+	7500 1100 8700 1100
+Wire Wire Line
+	8700 1100 9900 1100
+Wire Wire Line
+	9900 1100 9900 1200
+Connection ~ 8700 1100
+Wire Wire Line
+	7500 1100 7500 1200
+Wire Wire Line
+	9900 1500 9900 1700
+Wire Wire Line
+	8700 1500 8700 1700
+Wire Wire Line
+	7500 1700 7500 1500
+Wire Wire Line
+	7500 2000 7500 2400
+Wire Wire Line
+	8700 2000 8700 2400
+Wire Wire Line
+	9900 2000 9900 2400
+$EndSCHEMATC
